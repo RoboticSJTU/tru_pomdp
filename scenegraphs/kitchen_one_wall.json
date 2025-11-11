@@ -1,0 +1,173 @@
+{
+  "room": {
+    "cab_1_front": {
+      "utils_area": {
+        "Cutlery_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Prep_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "Human_Hand": {
+        "Human_Hand": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "cleaning_supplies_area": {
+        "Dishware_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_2_front": {
+      "breakfast_prep_area": {
+        "Snack_Pantry_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Coffee_Tea_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "baking_essentials_area": {
+        "Cleaning_Supply_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_3_front": {
+      "dish_prep_area": {
+        "Bakeware_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Appliance_Surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "DishWasher_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "beverage_storage_area": {
+        "Cookware_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "oven_front": {
+      "oven": {
+        "Oven_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        },
+        "Display_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "oversized_food_package_area": {
+        "Utility_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "microwave": {
+        "Microwave_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_4_front": {
+      "condiment_prep_area": {
+        "Appliance_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Drop_Zone_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "Cookbook_Shelf": {
+        "Cookbook_Shelf": {
+          "is_open": true,
+          "objects": []
+        },
+        "Spice_Shelf": {
+          "is_open": true,
+          "objects": []
+        },
+        "Pantry_Shelf": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "fridge_front": {
+      "fridge": {
+        "Fridge_Freezer_Layer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Fridge_Cooler_Layer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "snack_storage_area": {
+        "Beverage_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "link": [
+        "cab_1_front",
+        "cab_2_front"
+      ],
+      "cost": 2
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "cab_3_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_3_front",
+        "oven_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "oven_front",
+        "cab_4_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_4_front",
+        "fridge_front"
+      ],
+      "cost": 3
+    }
+  ]
+}

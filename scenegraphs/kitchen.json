@@ -1,0 +1,245 @@
+{
+  "room": {
+    "table_front": {
+      "ingredient_preparation_area": {
+        "vegetable_meat_prep_surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "human_hand": {
+        "human_hand": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "fridge_front": {
+      "fridge": {
+        "freezer_layer": {
+          "is_open": false,
+          "objects": []
+        },
+        "cooler_layer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "bulk_storage_cabinet": {
+        "oversized_food_package_space": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "oven_front": {
+      "oven": {
+        "oven_inner_space": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "microwave": {
+        "microwave_inner_space": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "bulky_cookware_storage": {
+        "roasting_baking_equipment_cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "dry_pantry_section": {
+        "grain_bean_storage_drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_1_front": {
+      "beverage_service_center": {
+        "glassware_display_surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "sealed_beverage_storage_cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "beverage_service_tools_drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "snack_inventory_drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "dishware_cabinet": {
+        "dishware_cabinet_inner_space": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_2_front": {
+      "cooking_essentials_zone": {
+        "cooking_condiments_surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "preserved_ingredients_drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "liquid_condiments_cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "utensil_storage_drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_3_front": {
+      "dining_preparation_area": {
+        "meal_plating_surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "dining_utensils_organizer_drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "cutlery_drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "cleaning_supplies_cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "flavor_enhancement_shelves": {
+        "dried_spices_storage_layer": {
+          "is_open": true,
+          "objects": []
+        },
+        "sauces_condiments_storage_layer": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "cab_4_front": {
+      "baking_specialty_zone": {
+        "pastry_preparation_surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "baking_supplies_storage_drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "breakfast_service_cabinet": {
+        "breakfast_essentials_space": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "waypoint_1": {},
+    "waypoint_2": {},
+    "waypoint_3": {}
+  },
+  "edges": [
+    {
+      "link": [
+        "fridge_front",
+        "oven_front"
+      ],
+      "cost": 2
+    },
+    {
+      "link": [
+        "oven_front",
+        "cab_1_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_1_front",
+        "waypoint_1"
+      ],
+      "cost": 5
+    },
+    {
+      "link": [
+        "cab_1_front",
+        "cab_2_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "waypoint_1",
+        "table_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "cab_3_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "table_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "table_front",
+        "waypoint_2"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_3_front",
+        "cab_4_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_3_front",
+        "waypoint_2"
+      ],
+      "cost": 5
+    },
+    {
+      "link": [
+        "waypoint_2",
+        "waypoint_3"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_4_front",
+        "waypoint_3"
+      ],
+      "cost": 5
+    }
+  ]
+}

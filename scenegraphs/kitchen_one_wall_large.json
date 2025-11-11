@@ -1,0 +1,200 @@
+{
+  "room": {
+    "table_front": {
+      "ingredient_preparation_area": {
+        "Coffee_Station_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "Human_Hand": {
+        "Human_Hand": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "fridge_front": {
+      "fridge": {
+        "Fridge_Freezer_Layer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Fridge_Cooler_Layer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "bulk_storage_cabinet": {
+        "Dry_Food_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "oven_front": {
+      "oven": {
+        "Oven_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "microwave": {
+        "Microwave_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "bulky_cookware_storage": {
+        "Appliance_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "dry_pantry_section": {
+        "Utensil_Organizer_Drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_1_front": {
+      "beverage_service_center": {
+        "Prep_Station_Surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "Baking_Supplies_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Knife_Tool_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Spice_Storage_Drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "dishware_cabinet": {
+        "Beverage_Service_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_2_front": {
+      "cooking_essentials_zone": {
+        "Appliance_Base_Surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "Wrap_Container_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Cleaning_Stock_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Towel_Storage_Drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_3_front": {
+      "dining_preparation_area": {
+        "Breakfast_Bar_Surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "Utility_Junk_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Trash_Bag_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Bulk_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "flavor_enhancement_shelves": {
+        "Daily_Dish_Shelf": {
+          "is_open": true,
+          "objects": []
+        },
+        "Cookbook_Display_Shelf": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "cab_4_front": {
+      "baking_specialty_zone": {
+        "Flex_Workspace_Surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "Quick_Snack_Drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "breakfast_service_cabinet": {
+        "Snack_Rotation_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "link": [
+        "fridge_front",
+        "oven_front"
+      ],
+      "cost": 2
+    },
+    {
+      "link": [
+        "oven_front",
+        "cab_1_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_1_front",
+        "cab_2_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "cab_3_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "table_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_3_front",
+        "cab_4_front"
+      ],
+      "cost": 3
+    }
+  ]
+}

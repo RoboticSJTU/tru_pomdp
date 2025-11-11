@@ -1,0 +1,80 @@
+# Build directories
+tru_pomdp/build/
+build/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Compiled Dynamic libraries
+*.so.*
+*.dylib.*
+
+# Executables
+*.exe
+*.out
+*.app
+tru_pomdp/build/tru_pomdp
+tru_pomdp/build/main*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+tru_pomdp/python_package/kitchen_env.egg-info/
+tru_pomdp/python_package/kitchen_env/__pycache__/
+*.egg-info/
+dist/
+eggs/
+.eggs/
+*.egg
+
+# Data and Results directories
+data/
+results/
+
+# Private configuration files
+config_private.sh
+*.private.*
+*_private.*
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Core dumps
+core
+core.*
+
+# Environment variables
+.env
+.env.local

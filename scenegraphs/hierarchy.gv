@@ -1,0 +1,109 @@
+digraph Hierarchy {
+	nodesep=0.5 rankdir=TB ranksep=0.5
+	node [fontname=Helvetica shape=box style=rounded]
+	room [label=room]
+	"room.table_front" [label=table_front]
+	room -> "room.table_front"
+	"room.table_front.ingredient_preparation_area" [label=ingredient_preparation_area]
+	"room.table_front" -> "room.table_front.ingredient_preparation_area"
+	"room.table_front.ingredient_preparation_area.vegetable_meat_prep_surface" [label=vegetable_meat_prep_surface]
+	"room.table_front.ingredient_preparation_area" -> "room.table_front.ingredient_preparation_area.vegetable_meat_prep_surface"
+	"room.table_front.human_hand" [label=human_hand]
+	"room.table_front" -> "room.table_front.human_hand"
+	"room.table_front.human_hand.human_hand" [label=human_hand]
+	"room.table_front.human_hand" -> "room.table_front.human_hand.human_hand"
+	"room.fridge_front" [label=fridge_front]
+	room -> "room.fridge_front"
+	"room.fridge_front.fridge" [label=fridge]
+	"room.fridge_front" -> "room.fridge_front.fridge"
+	"room.fridge_front.fridge.freezer_layer" [label=freezer_layer]
+	"room.fridge_front.fridge" -> "room.fridge_front.fridge.freezer_layer"
+	"room.fridge_front.fridge.cooler_layer" [label=cooler_layer]
+	"room.fridge_front.fridge" -> "room.fridge_front.fridge.cooler_layer"
+	"room.fridge_front.bulk_storage_cabinet" [label=bulk_storage_cabinet]
+	"room.fridge_front" -> "room.fridge_front.bulk_storage_cabinet"
+	"room.fridge_front.bulk_storage_cabinet.oversized_food_package_space" [label=oversized_food_package_space]
+	"room.fridge_front.bulk_storage_cabinet" -> "room.fridge_front.bulk_storage_cabinet.oversized_food_package_space"
+	"room.oven_front" [label=oven_front]
+	room -> "room.oven_front"
+	"room.oven_front.oven" [label=oven]
+	"room.oven_front" -> "room.oven_front.oven"
+	"room.oven_front.oven.oven_inner_space" [label=oven_inner_space]
+	"room.oven_front.oven" -> "room.oven_front.oven.oven_inner_space"
+	"room.oven_front.microwave" [label=microwave]
+	"room.oven_front" -> "room.oven_front.microwave"
+	"room.oven_front.microwave.microwave_inner_space" [label=microwave_inner_space]
+	"room.oven_front.microwave" -> "room.oven_front.microwave.microwave_inner_space"
+	"room.oven_front.bulky_cookware_storage" [label=bulky_cookware_storage]
+	"room.oven_front" -> "room.oven_front.bulky_cookware_storage"
+	"room.oven_front.bulky_cookware_storage.roasting_baking_equipment_cabinet" [label=roasting_baking_equipment_cabinet]
+	"room.oven_front.bulky_cookware_storage" -> "room.oven_front.bulky_cookware_storage.roasting_baking_equipment_cabinet"
+	"room.oven_front.dry_pantry_section" [label=dry_pantry_section]
+	"room.oven_front" -> "room.oven_front.dry_pantry_section"
+	"room.oven_front.dry_pantry_section.grain_bean_storage_drawer" [label=grain_bean_storage_drawer]
+	"room.oven_front.dry_pantry_section" -> "room.oven_front.dry_pantry_section.grain_bean_storage_drawer"
+	"room.cab_1_front" [label=cab_1_front]
+	room -> "room.cab_1_front"
+	"room.cab_1_front.beverage_service_center" [label=beverage_service_center]
+	"room.cab_1_front" -> "room.cab_1_front.beverage_service_center"
+	"room.cab_1_front.beverage_service_center.glassware_display_surface" [label=glassware_display_surface]
+	"room.cab_1_front.beverage_service_center" -> "room.cab_1_front.beverage_service_center.glassware_display_surface"
+	"room.cab_1_front.beverage_service_center.sealed_beverage_storage_cabinet" [label=sealed_beverage_storage_cabinet]
+	"room.cab_1_front.beverage_service_center" -> "room.cab_1_front.beverage_service_center.sealed_beverage_storage_cabinet"
+	"room.cab_1_front.beverage_service_center.beverage_service_tools_drawer" [label=beverage_service_tools_drawer]
+	"room.cab_1_front.beverage_service_center" -> "room.cab_1_front.beverage_service_center.beverage_service_tools_drawer"
+	"room.cab_1_front.beverage_service_center.snack_inventory_drawer" [label=snack_inventory_drawer]
+	"room.cab_1_front.beverage_service_center" -> "room.cab_1_front.beverage_service_center.snack_inventory_drawer"
+	"room.cab_1_front.dishware_cabinet" [label=dishware_cabinet]
+	"room.cab_1_front" -> "room.cab_1_front.dishware_cabinet"
+	"room.cab_1_front.dishware_cabinet.dishware_cabinet_inner_space" [label=dishware_cabinet_inner_space]
+	"room.cab_1_front.dishware_cabinet" -> "room.cab_1_front.dishware_cabinet.dishware_cabinet_inner_space"
+	"room.cab_2_front" [label=cab_2_front]
+	room -> "room.cab_2_front"
+	"room.cab_2_front.cooking_essentials_zone" [label=cooking_essentials_zone]
+	"room.cab_2_front" -> "room.cab_2_front.cooking_essentials_zone"
+	"room.cab_2_front.cooking_essentials_zone.cooking_condiments_surface" [label=cooking_condiments_surface]
+	"room.cab_2_front.cooking_essentials_zone" -> "room.cab_2_front.cooking_essentials_zone.cooking_condiments_surface"
+	"room.cab_2_front.cooking_essentials_zone.preserved_ingredients_drawer" [label=preserved_ingredients_drawer]
+	"room.cab_2_front.cooking_essentials_zone" -> "room.cab_2_front.cooking_essentials_zone.preserved_ingredients_drawer"
+	"room.cab_2_front.cooking_essentials_zone.liquid_condiments_cabinet" [label=liquid_condiments_cabinet]
+	"room.cab_2_front.cooking_essentials_zone" -> "room.cab_2_front.cooking_essentials_zone.liquid_condiments_cabinet"
+	"room.cab_2_front.cooking_essentials_zone.utensil_storage_drawer" [label=utensil_storage_drawer]
+	"room.cab_2_front.cooking_essentials_zone" -> "room.cab_2_front.cooking_essentials_zone.utensil_storage_drawer"
+	"room.cab_3_front" [label=cab_3_front]
+	room -> "room.cab_3_front"
+	"room.cab_3_front.dining_preparation_area" [label=dining_preparation_area]
+	"room.cab_3_front" -> "room.cab_3_front.dining_preparation_area"
+	"room.cab_3_front.dining_preparation_area.meal_plating_surface" [label=meal_plating_surface]
+	"room.cab_3_front.dining_preparation_area" -> "room.cab_3_front.dining_preparation_area.meal_plating_surface"
+	"room.cab_3_front.dining_preparation_area.dining_utensils_organizer_drawer" [label=dining_utensils_organizer_drawer]
+	"room.cab_3_front.dining_preparation_area" -> "room.cab_3_front.dining_preparation_area.dining_utensils_organizer_drawer"
+	"room.cab_3_front.dining_preparation_area.cutlery_drawer" [label=cutlery_drawer]
+	"room.cab_3_front.dining_preparation_area" -> "room.cab_3_front.dining_preparation_area.cutlery_drawer"
+	"room.cab_3_front.dining_preparation_area.cleaning_supplies_cabinet" [label=cleaning_supplies_cabinet]
+	"room.cab_3_front.dining_preparation_area" -> "room.cab_3_front.dining_preparation_area.cleaning_supplies_cabinet"
+	"room.cab_3_front.flavor_enhancement_shelves" [label=flavor_enhancement_shelves]
+	"room.cab_3_front" -> "room.cab_3_front.flavor_enhancement_shelves"
+	"room.cab_3_front.flavor_enhancement_shelves.dried_spices_storage_layer" [label=dried_spices_storage_layer]
+	"room.cab_3_front.flavor_enhancement_shelves" -> "room.cab_3_front.flavor_enhancement_shelves.dried_spices_storage_layer"
+	"room.cab_3_front.flavor_enhancement_shelves.sauces_condiments_storage_layer" [label=sauces_condiments_storage_layer]
+	"room.cab_3_front.flavor_enhancement_shelves" -> "room.cab_3_front.flavor_enhancement_shelves.sauces_condiments_storage_layer"
+	"room.cab_4_front" [label=cab_4_front]
+	room -> "room.cab_4_front"
+	"room.cab_4_front.baking_specialty_zone" [label=baking_specialty_zone]
+	"room.cab_4_front" -> "room.cab_4_front.baking_specialty_zone"
+	"room.cab_4_front.baking_specialty_zone.pastry_preparation_surface" [label=pastry_preparation_surface]
+	"room.cab_4_front.baking_specialty_zone" -> "room.cab_4_front.baking_specialty_zone.pastry_preparation_surface"
+	"room.cab_4_front.baking_specialty_zone.baking_supplies_storage_drawer" [label=baking_supplies_storage_drawer]
+	"room.cab_4_front.baking_specialty_zone" -> "room.cab_4_front.baking_specialty_zone.baking_supplies_storage_drawer"
+	"room.cab_4_front.breakfast_service_cabinet" [label=breakfast_service_cabinet]
+	"room.cab_4_front" -> "room.cab_4_front.breakfast_service_cabinet"
+	"room.cab_4_front.breakfast_service_cabinet.breakfast_essentials_space" [label=breakfast_essentials_space]
+	"room.cab_4_front.breakfast_service_cabinet" -> "room.cab_4_front.breakfast_service_cabinet.breakfast_essentials_space"
+	"room.waypoint_1" [label=waypoint_1]
+	room -> "room.waypoint_1"
+	"room.waypoint_2" [label=waypoint_2]
+	room -> "room.waypoint_2"
+	"room.waypoint_3" [label=waypoint_3]
+	room -> "room.waypoint_3"
+}

@@ -1,0 +1,330 @@
+{
+  "room": {
+    "cab_1_front": {
+      "utils_area": {
+        "Utensil_Organizer_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Coffee_Station_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "cleaning_supplies_area": {
+        "Dry_Food_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "Human_Hand": {
+        "Human_Hand": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "cab_2_front": {
+      "alcohol_area": {
+        "Small_Appliance_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Chopping_Station_Surface": {
+          "is_open": true,
+          "objects": []
+        },
+        "Cooking_Tool_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Spice_Rack_Drawer": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "flavor_enhancement_shelves": {
+        "Cookbook_Display_Shelf": {
+          "is_open": true,
+          "objects": []
+        },
+        "Daily_Dishes_Shelf": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "dishwasher_front": {
+      "dishwasher": {
+        "Dishwasher_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        },
+        "Breakfast_Prep_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "cab_3_front": {
+      "canned_food_storage_area": {
+        "Liquor_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Rice_Cooker_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "cab_4_front": {
+      "liquid_condiments_area": {
+        "Cleaning_Supply_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Foil_Wrap_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Mixing_Station_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      }
+    },
+    "fridge_front": {
+      "fridge": {
+        "Fridge_Freezer_Layer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Fridge_Cooler_Layer": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_5_front": {
+      "beverage_service_center": {
+        "Backup_Dishes_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Snack_Storage_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Knife_Block_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Baking_Prep_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "dishware_cabinet": {
+        "Baking_Ingredients_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_6_front": {
+      "grain_bean_storgae_area": {
+        "Kitchen_Linen_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Fruit_Basket_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "oversized_food_package_cabinet": {
+        "Bulk_Food_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "oven_front": {
+      "oven": {
+        "Oven_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        },
+        "Microwave_Station_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "microwave": {
+        "Microwave_Inner_Space": {
+          "is_open": false,
+          "objects": []
+        }
+      },
+      "baking_essentials_area": {
+        "Seasonal_Items_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_7_front": {
+      "pantry_essentials_area": {
+        "Cookware_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Recycling_Bin_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Lunch_Container_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Knife_Magnet_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "roasting_baking_equipment_area": {
+        "Servingware_Display_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    },
+    "cab_8_front": {
+      "breakfast_essentials_area": {
+        "Pet_Supply_Cabinet": {
+          "is_open": false,
+          "objects": []
+        },
+        "Tea_Coffee_Drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "preserved_ingredients_drawer": {
+          "is_open": false,
+          "objects": []
+        },
+        "Herb_Garden_Surface": {
+          "is_open": true,
+          "objects": []
+        }
+      },
+      "dry_food_storage_area": {
+        "Medicine_Storage_Cabinet": {
+          "is_open": false,
+          "objects": []
+        }
+      }
+    }
+  },
+  "edges": [
+    {
+      "link": [
+        "cab_1_front",
+        "cab_2_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "dishwasher_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "dishwasher_front",
+        "cab_3_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_3_front",
+        "cab_4_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_4_front",
+        "fridge_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_5_front",
+        "cab_6_front"
+      ],
+      "cost": 5
+    },
+    {
+      "link": [
+        "cab_6_front",
+        "oven_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "oven_front",
+        "cab_7_front"
+      ],
+      "cost": 4
+    },
+    {
+      "link": [
+        "cab_7_front",
+        "cab_8_front"
+      ],
+      "cost": 5
+    },
+    {
+      "link": [
+        "fridge_front",
+        "cab_5_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_3_front",
+        "cab_6_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "dishwasher_front",
+        "oven_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_2_front",
+        "cab_7_front"
+      ],
+      "cost": 3
+    },
+    {
+      "link": [
+        "cab_1_front",
+        "cab_8_front"
+      ],
+      "cost": 3
+    }
+  ]
+}

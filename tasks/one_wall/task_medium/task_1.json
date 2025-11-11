@@ -1,0 +1,210 @@
+{
+    "placement": [
+        {
+            "area": "Beverage_Storage_Cabinet",
+            "placed_object": "almond_milk_1"
+        },
+        {
+            "area": "Beverage_Storage_Cabinet",
+            "placed_object": "cow_milk_10"
+        },
+        {
+            "area": "Snack_Pantry_Cabinet",
+            "placed_object": "oatmeal_18"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "granola_17"
+        },
+        {
+            "area": "Drop_Zone_Surface",
+            "placed_object": "bowl_9"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "spoon_16"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "olive_oil_bottle_13"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "lemon_juicer_20"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "cake_mixer_19"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "paper_towel_4"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "water_thermos_20"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "rolling_pin_4"
+        },
+        {
+            "area": "Bakeware_Cabinet",
+            "placed_object": "muffin_tray_5"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "salad_tongs_6"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "waffle_maker_2"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "bell_pepper_15"
+        },
+        {
+            "area": "Bakeware_Cabinet",
+            "placed_object": "rolling_pin_20"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "decorative_plant_17"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "potato_peeler_8"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "pizza_cutter_12"
+        },
+        {
+            "area": "Bakeware_Cabinet",
+            "placed_object": "rolling_pin_3"
+        }
+    ],
+    "robot": {
+        "name": "Fetch",
+        "location": "Prep_Surface",
+        "object_in_hand": ""
+    },
+    "task": {
+        "description": "The sun has just risen and I need to distinguish my breakfast ingredients. Can you organize plant-based milk separately from dairy, keeping them accessible for meal prep? Additionally, make sure cereals are easy to reach while maintaining order.",
+        "goal_set": [
+            [
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Fridge_Cooler_Layer",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "oatmeal_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "almond_milk_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cow_milk_10"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oatmeal_18"
+                }
+            ]
+        ]
+    }
+}

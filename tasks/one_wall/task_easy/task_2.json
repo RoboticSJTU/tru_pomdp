@@ -1,0 +1,176 @@
+{
+    "placement": [
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "pasta_jar_5"
+        },
+        {
+            "area": "Pantry_Shelf",
+            "placed_object": "glass_bottle_18"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "stainless_steel_straw_5"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "bamboo_utensil_set_3"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "cloth_napkin_17"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "ceramic_plate_14"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "toaster_14"
+        },
+        {
+            "area": "Pantry_Shelf",
+            "placed_object": "wine_cork_11"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "fragrant_candle_19"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "Electric_Kettle_18"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "candlestick_11"
+        },
+        {
+            "area": "Bakeware_Cabinet",
+            "placed_object": "cake_pans_20"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "coffee_grinder_4"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "egg_timer_12"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "kitchen_timer_2"
+        },
+        {
+            "area": "Prep_Surface",
+            "placed_object": "paper_towel_holder_5"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "can_opener_5"
+        },
+        {
+            "area": "Beverage_Storage_Cabinet",
+            "placed_object": "soda_can_9"
+        },
+        {
+            "area": "Fridge_Freezer_Layer",
+            "placed_object": "ice_cube_tray_16"
+        },
+        {
+            "area": "Dishware_Cabinet",
+            "placed_object": "gravy_boat_1"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "egg_timer_5"
+        }
+    ],
+    "robot": {
+        "name": "Fetch",
+        "location": "Utility_Cabinet",
+        "object_in_hand": ""
+    },
+    "task": {
+        "description": "As dusk falls, let's make sure our plant-rich meal ingredients are easy to find and separated from animal products in reusable jars.",
+        "goal_set": [
+            [
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "pasta_jar_5"
+                },
+                {
+                    "target_area": "Beverage_Storage_Cabinet",
+                    "placed_object": "glass_bottle_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "pasta_jar_5"
+                }
+            ],
+            [
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "pasta_jar_5"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "glass_bottle_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "pasta_jar_5"
+                },
+                {
+                    "target_area": "Beverage_Storage_Cabinet",
+                    "placed_object": "glass_bottle_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "pasta_jar_5"
+                }
+            ],
+            [
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "pasta_jar_5"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "glass_bottle_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "pasta_jar_5"
+                },
+                {
+                    "target_area": "Beverage_Storage_Cabinet",
+                    "placed_object": "glass_bottle_18"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "pasta_jar_5"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "pasta_jar_5"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "glass_bottle_18"
+                }
+            ]
+        ]
+    }
+}

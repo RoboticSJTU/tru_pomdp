@@ -1,0 +1,2978 @@
+{
+    "placement": [
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "cumin_spice_16"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "saffron_spice_18"
+        },
+        {
+            "area": "Pantry_Shelf",
+            "placed_object": "harissa_paste_9"
+        },
+        {
+            "area": "Snack_Pantry_Cabinet",
+            "placed_object": "hot_cross_buns_3"
+        },
+        {
+            "area": "Beverage_Storage_Cabinet",
+            "placed_object": "marzipan_figures_1"
+        },
+        {
+            "area": "Fridge_Cooler_Layer",
+            "placed_object": "chocolate_eggs_10"
+        },
+        {
+            "area": "Pantry_Shelf",
+            "placed_object": "canned_soup_5"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "coaster_2"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "potato_masher_3"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "mug_14"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "rolling_pin_15"
+        },
+        {
+            "area": "Cutlery_Drawer",
+            "placed_object": "ice_cream_scoop_2"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "thumbtack_18"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "popcorn_maker_13"
+        },
+        {
+            "area": "Pantry_Shelf",
+            "placed_object": "plastic_container_14"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "vegetable_peeler_20"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "blender_10"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "blender_9"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "egg_timer_2"
+        },
+        {
+            "area": "Prep_Surface",
+            "placed_object": "cutting_board_8"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "salad_spinner_2"
+        }
+    ],
+    "robot": {
+        "name": "Fetch",
+        "location": "Pantry_Shelf",
+        "object_in_hand": ""
+    },
+    "task": {
+        "description": "With Easter Sunday family brunch approaching, I'd love to have a vibrant spice display for anyone keen on trying global flavors. Also, some traditional Easter treats should be easily reachable for snacking.",
+        "goal_set": [
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "hot_cross_buns_3"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "saffron_spice_18"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ],
+            [
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "cumin_spice_16"
+                },
+                {
+                    "target_area": "Display_Surface",
+                    "placed_object": "harissa_paste_9"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "marzipan_figures_1"
+                },
+                {
+                    "target_area": "Snack_Pantry_Cabinet",
+                    "placed_object": "chocolate_eggs_10"
+                }
+            ]
+        ]
+    }
+}

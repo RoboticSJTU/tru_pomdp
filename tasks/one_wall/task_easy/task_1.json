@@ -1,0 +1,1306 @@
+{
+    "placement": [
+        {
+            "area": "Pantry_Shelf",
+            "placed_object": "cooking_oil_1"
+        },
+        {
+            "area": "Cleaning_Supply_Cabinet",
+            "placed_object": "salt_shaker_3"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "pepper_grinder_19"
+        },
+        {
+            "area": "Spice_Shelf",
+            "placed_object": "oregano_jar_17"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "thyme_box_20"
+        },
+        {
+            "area": "Spice_Shelf",
+            "placed_object": "basil_pack_15"
+        },
+        {
+            "area": "Snack_Pantry_Cabinet",
+            "placed_object": "cookie_jar_11"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "plastic_wrap_19"
+        },
+        {
+            "area": "Prep_Surface",
+            "placed_object": "chopping_board_16"
+        },
+        {
+            "area": "Cutlery_Drawer",
+            "placed_object": "cheese_grater_14"
+        },
+        {
+            "area": "Beverage_Storage_Cabinet",
+            "placed_object": "wine_bottle_4"
+        },
+        {
+            "area": "Cleaning_Supply_Cabinet",
+            "placed_object": "dish_towel_3"
+        },
+        {
+            "area": "Bakeware_Cabinet",
+            "placed_object": "oven_mitt_9"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "egg_timer_16"
+        },
+        {
+            "area": "Fridge_Cooler_Layer",
+            "placed_object": "egg_carton_18"
+        },
+        {
+            "area": "Appliance_Surface",
+            "placed_object": "blender_3"
+        },
+        {
+            "area": "Coffee_Tea_Surface",
+            "placed_object": "coffee_machine_18"
+        },
+        {
+            "area": "Appliance_Cabinet",
+            "placed_object": "trivet_9"
+        },
+        {
+            "area": "Utility_Cabinet",
+            "placed_object": "placemat_19"
+        },
+        {
+            "area": "Display_Surface",
+            "placed_object": "coaster_4"
+        },
+        {
+            "area": "Cookware_Cabinet",
+            "placed_object": "blender_6"
+        }
+    ],
+    "robot": {
+        "name": "Fetch",
+        "location": "Utility_Cabinet",
+        "object_in_hand": ""
+    },
+    "task": {
+        "description": "As it's the initial day of the festival and my first time optimizing this kitchen layout, please set up a dedicated station with spices and cooking essentials to streamline meal prep.",
+        "goal_set": [
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "oregano_jar_17"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "cooking_oil_1"
+                },
+                {
+                    "target_area": "Pantry_Shelf",
+                    "placed_object": "thyme_box_20"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Spice_Shelf",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Human_Hand",
+                    "placed_object": "basil_pack_15"
+                }
+            ],
+            [
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "salt_shaker_3"
+                },
+                {
+                    "target_area": "Prep_Surface",
+                    "placed_object": "pepper_grinder_19"
+                },
+                {
+                    "target_area": "Drop_Zone_Surface",
+                    "placed_object": "basil_pack_15"
+                }
+            ]
+        ]
+    }
+}
