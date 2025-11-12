@@ -9,7 +9,6 @@
 #include <thread>
 #include <future>
 #include <exception>
-#include "openai/openai.hpp"  // Assuming openai-cpp library is included
 #include <sstream>  // 需要引入
 #include <fstream>
 #include <cstdlib>  // setenv
@@ -25,7 +24,6 @@ private:
     string api_key_;
     string base_url_;
     int k_;
-    // openai::OpenAI client_;
 
     string objects_of_interest_system_prompt;
     string objects_of_interest_example_prompt;

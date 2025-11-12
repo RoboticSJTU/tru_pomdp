@@ -376,8 +376,6 @@ string TreeOfHypothesis::query_llm(const string& prompt, string module){
         }
     }
 
-
-    openai::start();
     string total_prompt = system_prompt + prompt;
     nlohmann::json request;
     

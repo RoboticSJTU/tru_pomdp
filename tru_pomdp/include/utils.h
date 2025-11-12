@@ -11,6 +11,7 @@
 #include <set>
 #include <regex>
 
+
 #include <SceneGraph/SceneGraph.h>
 #include <SceneGraph/Action.h>
 #include <SceneGraph/Node.h>
@@ -20,6 +21,9 @@
 #include <unistd.h>
 #include <tree_of_hypothesis.h>
 #include <unordered_set>
+#include <nlohmann/json.hpp>  
+#include <curl/curl.h>
+
 
 #include <tru_pomdp_task.h>
 #include <tru_pomdp_belief.h>
