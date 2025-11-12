@@ -44,8 +44,10 @@ int main(int argc, char *argv[]) {
     cout << "base_url: " << base_url << endl;
     int k = stoi(argv[10]);
     cout << "k: " << k << endl;
+    string proxy_url = (argc > 11) ? argv[11] : "None";
+    cout << "proxy_url: " << proxy_url << endl;
 
-    string COT_str = (argc > 11)? (argv[11]) : "false";
+    string COT_str = (argc > 12)? (argv[12]) : "false";
     cout << "COT: " << COT_str << endl;
     if(COT_str == "true"){
         Globals::config.cot = true;
@@ -53,7 +55,7 @@ int main(int argc, char *argv[]) {
         Globals::config.cot = false;
     }
 
-    string save_data_str = (argc > 12)? (argv[12]) : "false";
+    string save_data_str = (argc > 13)? (argv[13]) : "false";
     cout << "save_data: " << save_data_str << endl;
     if(save_data_str == "true"){
         Globals::config.save_data = true;
@@ -72,6 +74,7 @@ int main(int argc, char *argv[]) {
     Globals::config.llm_model = llm_model;
     Globals::config.api_key = api_key;
     Globals::config.base_url = base_url;
+    Globals::config.proxy_url = proxy_url;
     Globals::config.k = k;
     Globals::config.scene_graph = scene_graph;
 
@@ -105,6 +108,7 @@ int main(int argc, char *argv[]) {
         settings_file << "time_per_move: " << Globals::config.time_per_move << endl;
         settings_file << "llm_model: " << llm_model << endl;
         settings_file << "k: " << k << endl;
+        settings_file << "proxy_url: " << proxy_url << endl;
 
         settings_file.close();
         cout << "settings_file_path: " << settings_file_path << endl;        

@@ -28,6 +28,7 @@ struct Config {
 	std::string llm_model;
 	std::string api_key;
 	std::string base_url;
+	std::string proxy_url;  // Proxy URL, set to "None" to disable proxy
 	int k;
 
 	bool cot;

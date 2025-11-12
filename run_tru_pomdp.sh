@@ -1,4 +1,4 @@
-source ./config.sh
+source ./config_private.sh
 
 scene_graph="one_wall"
 task_level="easy"
@@ -39,7 +39,7 @@ $EXECUTABLE \
     "$TASK_FILE" \
     $NUM_SCENARIOS $SIM_LEN $MAX_POLICY_SIM_LEN \
     "$RESULT_FILE" \
-    $LLM_MODEL $API_KEY $BASE_URL $K $COT $SAVE_DATA
+    $LLM_MODEL $API_KEY $BASE_URL $K $PROXY_URL $COT $SAVE_DATA
 
 echo "Finished running TRU-POMDP. Results saved to ${RESULT_FILE}"
 

@@ -11,6 +11,9 @@ BASE_URL="https://api.openai.com/v1/chat/completions"
 # API_KEY="<YOUR API KEY HERE>"
 # BASE_URL="https://{<YOUR AZURE OPENAI ENDPOINT>}/openai/deployments/$LLM_MODEL/chat/completions?api-version=2025-04-01-preview"
 
+# Proxy configuration (set to "None" to disable proxy)
+# Example: PROXY_URL="http://127.0.0.1:7890"
+PROXY_URL="None"
 
 #tru_pomdp config
 NUM_SCENARIOS=30

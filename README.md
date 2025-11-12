@@ -71,6 +71,10 @@ BASE_URL="https://api.openai.com/v1/chat/completions"
 # API_KEY="your-azure-api-key"
 # BASE_URL="https://your-resource.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-02-15-preview"
 
+# Proxy configuration (set to "None" to disable proxy)
+# Example: PROXY_URL="http://127.0.0.1:7890"
+PROXY_URL="None"
+
 # Planning parameters
 NUM_SCENARIOS=30          # Number of scenarios for DESPOT
 MAX_POLICY_SIM_LEN=10    # Maximum rollout length
@@ -114,6 +118,7 @@ bash run_tru_pomdp.sh
     <api_key> \
     <base_url> \
     <k> \
+    <proxy_url> \
     <cot> \
     <save_data>
 ```
@@ -129,6 +134,7 @@ bash run_tru_pomdp.sh
 - `api_key`: API key for LLM service
 - `base_url`: API endpoint URL
 - `k`: Number of hypothesis branches in ToH
+- `proxy_url`: Proxy URL (e.g., "http://127.0.0.1:7890"), set to "None" to disable
 - `cot`: Enable chain-of-thought ("true" or "false")
 - `save_data`: Save intermediate data ("true" or "false")
 
@@ -144,6 +150,7 @@ bash run_tru_pomdp.sh
     "your-api-key" \
     "https://api.openai.com/v1/chat/completions" \
     3 \
+    "None" \
     "true" \
     "true"
 ```

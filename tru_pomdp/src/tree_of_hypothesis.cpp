@@ -357,22 +357,26 @@ string TreeOfHypothesis::query_llm(const string& prompt, string module){
             exit(1);
         }
     }
-    //export https_proxy=http://127.0.0.1:7890;export http_proxy=http://127.0.0.1:7890;export all_proxy=socks5://127.0.0.1:7891
 
-    //if llm_model_ contains "gpt", setenv
-    if ((llm_model_.find("gpt") != string::npos) or (llm_model_ =="o3-mini")){
-
-        if(setenv("https_proxy", string("http://127.0.0.1:7890").c_str(), 1) != 0){
-            cout << "setenv failed" << endl;
+    // Set proxy from config if not "None"
+    string proxy_url = despot::Globals::config.proxy_url;
+    if (!proxy_url.empty() && proxy_url != "None") {
+        if(setenv("https_proxy", proxy_url.c_str(), 1) != 0){
+            cout << "setenv https_proxy failed" << endl;
             exit(1);
         }
-        if(setenv("http_proxy", string("http://127.0.0.1:7890").c_str(), 1) != 0){
-            cout << "setenv failed" << endl;
+        if(setenv("http_proxy", proxy_url.c_str(), 1) != 0){
+            cout << "setenv http_proxy failed" << endl;
             exit(1);
         }
-        if(setenv("all_proxy", string("socks5://127.0.0.1:7891").c_str(), 1) != 0){
-            cout << "setenv failed" << endl;
-            exit(1);
+        // Extract port for socks5 proxy (assuming format http://host:port)
+        size_t last_colon = proxy_url.find_last_of(':');
+        if (last_colon != string::npos) {
+            string socks_proxy = "socks5://" + proxy_url.substr(7, last_colon - 7) + ":7891";
+            if(setenv("all_proxy", socks_proxy.c_str(), 1) != 0){
+                cout << "setenv all_proxy failed" << endl;
+                exit(1);
+            }
         }
     }
 

@@ -9,9 +9,9 @@
 #include <thread>
 #include <future>
 #include <exception>
-#include <sstream>  // 需要引入
+#include <sstream>
 #include <fstream>
-#include <cstdlib>  // setenv
+#include <cstdlib>
 #include <utils.h>
 
 using namespace std;
@@ -25,23 +25,12 @@ private:
     string base_url_;
     int k_;
 
-    string objects_of_interest_system_prompt;
-    string objects_of_interest_example_prompt;
     string initial_areas_system_prompt;
     string initial_areas_example_prompt;
-    string target_areas_system_prompt;
-    string target_areas_example_prompt;
-
-    string no_tree_system_prompt;
-    string no_tree_example_prompt;
 
     string obj_of_interest_and_target_area_system_prompt;
     string obj_of_interest_and_target_area_example_prompt;
-
-    string initial_areas_set_system_prompt;
-    string initial_areas_set_example_prompt;
-
-
+    
 public:
     int prompt_tokens;
     int completion_tokens;
