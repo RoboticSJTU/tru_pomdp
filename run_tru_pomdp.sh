@@ -1,4 +1,4 @@
-source ./config_private.sh
+source ./config.sh
 
 scene_graph="one_wall"
 task_level="easy"
